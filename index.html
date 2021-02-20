@@ -2,6 +2,26 @@
 <html>
 
 <head>
+	<style>
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+</style>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -264,6 +284,9 @@ Ahmedabad, India</li>
                   <div class="container">
                         <div class="section-title text-center">
                               <h1>Model Set Up</h1>
+				<li> <a href = "https://drive.google.com/file/d/16bOFxfrG6CUDJj0pE1cr10x5hy_W1ZEq/view?usp=sharing" target="_blank">GNUlibauto_install.sh</a> (script to install the GNU autoconf automake and
+libtool packages needed for Hands-on session of Tuesday afternoon) </li>
+				
 				<li> <a href = "https://github.com/ictp-esp/RegCM/blob/master/Tools/Scripts/prereq_install.sh" target="_blank">RegCM prereq_install.sh </a></li>
                               <li> <a href = "https://github.com/ciarloj/RegCM4.5-CB6C" target="_blank">RegCM4-CB6</a> (Needed for the
 tutorial by Dr. James Ciarlo) </li>
@@ -425,10 +448,11 @@ The Department offers M.Sc., Intregrated M.Sc., M.Phil., Ph.D. and Post Doc. in 
 	It has a rich tradition of teaching and research. 		
                                For more details about the department <a href="dept.html">Click here.</a>. 
                  <br>
-				<figure>
-				<img src="hpc.jpg" alt="HPC" style="width:300px;height:400px;">
-					<figcaption>HPC system installed at the department with 216 cores and 60TB memory.</figcaption>
-					</figure>
+				<p>Hover over the image:</p>
+<img src="1.jpg" alt="1" width="300" height="300"> <img src="2.jpg" alt="2" width="300" height="300">
+<img src="3.jpg" alt="3" width="300" height="300"> <img src="4.jpg" alt="4" width="300" height="300">
+<img src="hpc.jpg" alt="HPC" width="300" height="300"><img src="dept.jpg" alt="Department" width="300" height="300">
+
 		    
 		    
 		    </div>
